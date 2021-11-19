@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 9%;
+}
+
+.nav h1{
+    color: rebeccapurple;
+    font-size: 25px;
+}
+
+.nav li{
+    color: rebeccapurple;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 20px;
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav input{
+    background-color: black;
+    box-shadow: 0 5px 0 rebeccapurple;
+    border-radius: 20px;
+    padding: 5px 25px;
+    color: silver;
+    border: none;
+    outline: none;
+}
+
+.nav .icons i{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    color: rebeccapurple;
+    padding: 0 20px;
+}
+
+.nav hr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 100%;
+    height: 160vh;
+}
+
+hr{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img{
+    width: 80%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    flex-wrap: wrap;
+}
+
+.card_1{
+    width: 400px;
+    height: 360px;
+}
+.card_2{
+    width: 400px;
+    height: 360px;
+}
+.card_3{
+    width: 400px;
+    height: 360px;
+}
+.card_4{
+    width: 400px;
+    height: 360px;
+}
+.card_5{
+    width: 400px;
+    height: 360px;
+}
+.card_6{
+    width: 400px;
+    height: 360px;
+}
+.card_7{
+    width: 400px;
+    height: 360px;
+}
+.card_8{
+    width: 400px;
+    height: 360px;
+}
+
+
+
+.card_1::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '';
+    position: relative;
+    background: url('https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/post_360412_0_03818100_1366521768.png') center / cover;
+    width: 320px;
+    height: 320px;
+    margin: 40px;
+}
+.card_1::after{         
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'w95';
+    font-size: 0px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 0px;
+    height: 320px;
+    margin: 40px;
+    bottom: 360px;
+    transition: 0.3s;
+    overflow: hidden;
+    opacity: 0;
+}
+.card_1:hover:after{
+    overflow: auto;
+    font-size: 100px;
+    width: 320px;
+    height: 320px;
+    opacity: 1;
+}
+
+.card_2::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '';
+    position: relative;
+    background: url('https://commons.bmstu.wiki/images/e/e2/11Maxresdefault.jpg') center / cover;
+    width: 320px;
+    height: 320px;
+    margin: 40px;
+}
+.card_2::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'w98';
+    font-size: 0px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 0px;
+    height: 320px;
+    margin: 40px;
+    bottom: 360px;
+    transition: 0.3s;
+    overflow: hidden;
+    opacity: 0;
+}
+.card_2:hover:after{
+    overflow: auto;
+    font-size: 100px;
+    width: 320px;
+    height: 320px;
+    opacity: 1;
+}
+
+.card_3::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '';
+    position: relative;
+    background: url('http://s12.pikabu.ru/post_img/2020/05/13/11/1589395699189362345.png') center / cover;
+    width: 320px;
+    height: 320px;
+    margin: 40px;
+}
+.card_3::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'w2000';
+    font-size: 0px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 0px;
+    height: 320px;
+    margin: 40px;
+    bottom: 360px;
+    transition: 0.3s;
+    overflow: hidden;
+    opacity: 0;
+}
+.card_3:hover:after{
+    overflow: auto;
+    font-size: 100px;
+    width: 320px;
+    height: 320px;
+    opacity: 1;
+}
+
+.card_4::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '';
+    position: relative;
+    background: url('https://cdn.worldvectorlogo.com/logos/microsoft-windows-xp.svg') center / cover;
+    width: 320px;
+    height: 320px;
+    margin: 40px;
+}
+.card_4::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'wXP';
+    font-size: 0px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 0px;
+    height: 320px;
+    margin: 40px;
+    bottom: 360px;
+    transition: 0.3s;
+    overflow: hidden;
+    opacity: 0;
+}
+.card_4:hover:after{
+    overflow: auto;
+    font-size: 100px;
+    width: 320px;
+    height: 320px;
+    opacity: 1;
+}
+
+.card_5::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '';
+    position: relative;
+    background: url('https://ae01.alicdn.com/kf/H4d706874b2214da7aa374c99cb776f62N/Microsoft-Windows-7-pro-32-Bit-64Bit-Download-Digital-License-Lifetime-Windows-7-pro.jpg') center / cover;
+    width: 320px;
+    height: 320px;
+    margin: 40px;
+}
+.card_5::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'w7';
+    font-size: 0px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 0px;
+    height: 320px;
+    margin: 40px;
+    bottom: 360px;
+    transition: 0.3s;
+    overflow: hidden;
+    opacity: 0;
+}
+.card_5:hover:after{
+    overflow: auto;
+    font-size: 100px;
+    width: 320px;
+    height: 320px;
+    opacity: 1;
+}
+
+.card_6::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '';
+    position: relative;
+    background: url('https://e7.pngegg.com/pngimages/905/294/png-clipart-windows-8-1-computer-software-windows-7-windows-logos-blue-angle.png') center / cover;
+    width: 320px;
+    height: 320px;
+    margin: 40px;
+}
+.card_6::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'w8';
+    font-size: 0px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 0px;
+    height: 320px;
+    margin: 40px;
+    bottom: 360px;
+    transition: 0.3s;
+    overflow: hidden;
+    opacity: 0;
+}
+.card_6:hover:after{
+    overflow: auto;
+    font-size: 100px;
+    width: 320px;
+    height: 320px;
+    opacity: 1;
+}
+
+.card_7::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '';
+    position: relative;
+    background: url('https://www.pugetsystems.com/pic_disp.php?id=37027') center / cover;
+    width: 320px;
+    height: 320px;
+    margin: 40px;
+}
+.card_7::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'w10';
+    font-size: 0px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 0px;
+    height: 320px;
+    margin: 40px;
+    bottom: 360px;
+    transition: 0.3s;
+    overflow: hidden;
+    opacity: 0;
+}
+.card_7:hover:after{
+    overflow: auto;
+    font-size: 100px;
+    width: 320px;
+    height: 320px;
+    opacity: 1;
+}
+
+.card_8::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '';
+    position: relative;
+    background: url('https://www.howtogeek.com/wp-content/uploads/2021/06/windows_11_generic_hero_1.jpg?width=1198&trim=1,1&bg-color=000&pad=1,1') center / cover;
+    width: 320px;
+    height: 320px;
+    margin: 40px;
+}
+.card_8::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'w11';
+    font-size: 0px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 0px;
+    height: 320px;
+    margin: 40px;
+    bottom: 360px;
+    transition: 0.3s;
+    overflow: hidden;
+    opacity: 0;
+}
+.card_8:hover:after{
+    overflow: auto;
+    font-size: 100px;
+    width: 320px;
+    height: 320px;
+    opacity: 1;
+}
+
+@media screen and (max-width:1200px) {
+    .second_banner{
+        height: 290%;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .second_banner{
+        height: 100%;
+        height: 0%;
+    }
+}
+
+.second_banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 290%;
+    position: relative;
+    transition: 0.3;   
+}
+
+.second_banner .ban_1 img{   
+    position: absolute;
+    object-fit: cover;
+    width: 700px;
+    height: 400px;
+}
+
+.second_banner .ban_1 p{
+    width: 580px;
+    height: 280px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.ban_1:hover p{
+    position: relative;
+    transform:translate(-150px);
+    overflow: cover;
+    opacity: 0;
+}
+
+.second_banner .ban_2 img{   
+    position: absolute;
+    object-fit: cover;
+    width: 700px;
+    height: 400px;
+}
+
+.second_banner .ban_2 p{
+    width: 580px;
+    height: 280px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.ban_2:hover p{
+    position: relative;
+    transform:translate(150px);
+    overflow: cover;
+    opacity: 0;
+}
+
+.burger{
+    color: rebeccapurple;
+    font-size: 34px;
+    display: none;
+}
+
+@media screen and (max-width: 960px){
+    .icons{
+        display: none;
+    }
+
+    .nav ul{
+        display: none;
+    }
+
+    .nav input{
+        display: none;
+    }
+
+    .container input{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
